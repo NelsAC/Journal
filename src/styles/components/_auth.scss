@@ -1,0 +1,58 @@
+.auth__main{
+    background-image: url(../../img/bg_login.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.auth__box-container{
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    backdrop-filter: blur(5px);
+    padding: 60px;
+    width: 35%;
+}
+
+.auth__title{
+    color: $white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.auth__input{
+    color: $white;
+    border: 0;
+    border-bottom: 1px solid $light-grey;
+    background-color: transparent;
+    padding: 5px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    height: 20px;
+    width: 100%;
+    transition: border-bottom .5s ease;
+
+    &:focus{
+        border-bottom: 1px solid $primary;
+        outline: none;
+    }
+
+    &::placeholder{
+        color: darken($color: $white, $amount: 20)
+    }
+
+}
+
+.auth__social-networks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    color: $white;
+    font-size: 14px;
+}

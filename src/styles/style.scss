@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.font-courgette{
+    font-family: 'Courgette', cursive;
+}
+// .scroll-appearance::-webkit-scrollbar{
+//     width: 1px;
+//     height: 1px;
+// }
+
+/* Tamaño del scroll */
+.scroll-appearance::-webkit-scrollbar {
+  width: 5px;
+}
+  
+/* Estilos barra (thumb) de scroll */
+.scroll-appearance::-webkit-scrollbar-thumb {
+  background: #475466;
+  border-radius: 15%;
+}
+  /* Estilos track de scroll */
+.scroll-appearance::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 15%;
+}
+
+
+.shadow-boxInner{
+  box-shadow: 3px 2px 30px 0px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 2px 30px 0px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 2px 30px 0px rgba(0,0,0,0.75) inset;
+}
